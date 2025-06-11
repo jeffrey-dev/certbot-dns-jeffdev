@@ -40,7 +40,7 @@ jobs:
     needs: build
     steps:
     - name: Download distribution from build job
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: certbot-dns-jeffdev-dist
         path: dist/
