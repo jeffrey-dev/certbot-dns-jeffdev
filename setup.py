@@ -41,7 +41,7 @@ setup(
     author="Jeffrey van Barneveld",
     author_email="jeffrey.barneveld@jeffdev.nl",
     license="BSD-2-Clause",
-    long_description=readme,
+    long_description="Certbot plugin for automating the DNS-01 challenge using Jeffdev DNS API.",
     python_requires=">=3.7",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
